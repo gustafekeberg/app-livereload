@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<filters>
+		<response-filter name="liveReload" order="10"/>
+	</filters>
+	<config>
+		<input name="enable" type="CheckBox">
+			<label>Enable</label>
+			<help-text>Enable livereload JS-code on site.</help-text>	
+			<occurrences minimum="0" maximum="1"/>
+			<default>checked</default>
+		</input>
+		<input name="port" type="TextLine">
+			<label>Override default port</label>
+			<help-text>Default port is 35729. Leave empty to use default.</help-text>
+			<occurrences minimum="0" maximum="1"/>
+			<config>
+				<regexp>^\d{1,5}$</regexp>
+			</config>
+			<default></default>
+		</input>
+	</config>
+</site>
