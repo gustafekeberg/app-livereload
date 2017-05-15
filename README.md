@@ -6,6 +6,8 @@ When using LiveReload there's no need to refresh your browser. The LiveReload sc
 
 For the script to work you need file system monitor that can detect changes in your files.
 
+LiveReload should work in any JS-enabled browser that can connect to the file system monitor.
+
 ## Monitoring software
 
 - [livereload](http://livereload.com)
