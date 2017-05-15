@@ -18,10 +18,10 @@ exports.responseFilter = function (req, res) {
 function filter (req, res, config) {
 	var port = config.port ? config.port : "35729";
 	var host = config.host;
-	var liveReloadScript = "<script>document.write('<script src=\"" +
-	( host || "http://' + location.host.split(':')[0] + '" ) +
-	":" + port + "/livereload.js?snipver=1\"></'" +
-	"+ 'script>')</script>";
+	var liveReloadScript =
+		"<script>document.write('<script src=\"" +
+		( host || "http://' + location.host.split(':')[0] + '" ) + ":" + port +
+		"/livereload.js?snipver=1\"></' + 'script>')</script>";
 
 	var bodyEnd = res.pageContributions.bodyEnd;
   if (!bodyEnd) {
