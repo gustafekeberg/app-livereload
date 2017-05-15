@@ -6,18 +6,19 @@
 	<config>
 		<input name="enable" type="CheckBox">
 			<label>Enable</label>
-			<help-text>Enable livereload JS-code on site.</help-text>	
+			<help-text>Enable LiveReload on site.</help-text>	
 			<occurrences minimum="0" maximum="1"/>
 			<default>checked</default>
 		</input>
 		<input name="port" type="TextLine">
-			<label>Override default port</label>
+			<label>Override port</label>
 			<help-text>Default port is 35729. Leave empty to use default.</help-text>
 			<occurrences minimum="0" maximum="1"/>
-			<config>
-				<regexp>^\d{1,5}$</regexp>
-			</config>
-			<default></default>
+		</input>
+		<input name="host" type="TextLine">
+			<label>Override host</label>
+			<help-text>Default is "http://localhost". Leave empty to use default.</help-text>
+			<occurrences minimum="0" maximum="1"/>
 		</input>
 	</config>
 </site>
