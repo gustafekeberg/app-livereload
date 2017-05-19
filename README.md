@@ -1,6 +1,6 @@
 # Enonic XP - LiveReload
 
-Use this app to insert a LiveReload JavaScript snippet to any site when developing in Enonic XP.
+Use this app to insert a JavaScript snippet on any site that points to your LiveReload watcher when developing in Enonic XP.
 
 When using LiveReload there's no need to refresh your browser. The LiveReload script will automatically reload the browser for you when a file has changed.
 

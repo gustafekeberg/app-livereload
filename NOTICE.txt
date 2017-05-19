@@ -1,0 +1,7 @@
+Licenses used by LiveReload app for Enonic XP
+
+    JavaScript code licenses used by this project:
+
+    LiveReload.js
+    MIT License
+    https://github.com/livereload/livereload-js
