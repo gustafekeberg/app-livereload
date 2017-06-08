@@ -14,7 +14,7 @@ Browser plugins is normally to be preferred but if you leave the app enabled bro
 
 - Install the app on your site
 - Run a file system monitor
-- You can override the `port` and `host` where LiveReload tries to connect to the file monitor
+- In the app settings you can override the `port` and `host` where LiveReload tries to connect to the file monitor
 - The LiveReload JS-code is inserted on all pages unless when you are editing a page
 
 ## Some monitors
